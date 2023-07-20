@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "society-simulator"
+version = "0.1.0"
+description = ""
+authors = ["Alex Lambrou <alexander.lambrou@ovationcxm.com>"]
+readme = "README.md"
+packages = [{include = "society_simulator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
