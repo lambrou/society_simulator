@@ -7,8 +7,13 @@ readme = "README.md"
 packages = [{include = "society_simulator"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "<3.13,>=3.9"
 transformers = "^4.31.0"
+bitsandbytes = "^0.40.2"
+sentencepiece = "^0.1.99"
+torch = ">=2.0.0, !=2.0.1"
+accelerate = "^0.21.0"
+scipy = "^1.11.1"
 
 
 [build-system]
